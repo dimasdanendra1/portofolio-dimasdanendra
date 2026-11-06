@@ -1,0 +1,7 @@
+Sumber ikon dan font (disimpan lokal, tanpa CDN):
+
+- Font Plus Jakarta Sans (paket @fontsource/plus-jakarta-sans): SIL Open Font License 1.1.
+- Ikon Google Docs/Sheets/Slides/Drive, Laravel, PHP, MySQL, Canva, Instagram, WhatsApp: Simple Icons (CC0 1.0). Logo tetap merupakan merek dagang pemiliknya masing-masing.
+- Ikon LinkedIn, Word, Excel, PowerPoint: Font Awesome Free (CC BY 4.0, https://fontawesome.com). Word/Excel/PowerPoint di sini berupa ikon berkas generik, bukan logo resmi Microsoft.
+- Ikon Visual Studio Code: Codicons / Microsoft (CC BY 4.0).
+Jika memakai CC BY 4.0, pertahankan atribusi ini (berkas ini sudah cukup) saat mempublikasikan.

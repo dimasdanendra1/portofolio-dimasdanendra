@@ -1,0 +1,579 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dimas Danendra — Portofolio</title>
+  <meta name="description"
+    content="Portofolio Dimas Danendra, lulusan Teknik Informatika dengan pengalaman administrasi, pengelolaan data, IT support, dan pengembangan web. Terbuka untuk bekerja.">
+  <meta name="theme-color" content="#FFFFFF">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="id_ID">
+  <meta property="og:title" content="Dimas Danendra — Portofolio">
+  <meta property="og:description" content="Portofolio Dimas Danendra: administrasi, pengelolaan data, IT support, dan pengembangan web.">
+  <meta property="og:image" content="assets/card-photo.jpeg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Dimas Danendra — Portofolio">
+  <meta name="twitter:description" content="Portofolio Dimas Danendra: administrasi, pengelolaan data, IT support, dan pengembangan web.">
+  <meta name="twitter:image" content="assets/card-photo.jpeg">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/card-photo.jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Loncat ke konten</a>
+  <div class="scroll-progress" aria-hidden="true"><span class="scroll-progress__bar" id="scrollProgressBar"></span></div>
+  <nav class="nav" aria-label="Navigasi utama">
+    <a class="nav__logo" href="#hero">portofolio</a>
+    <ul class="nav__menu" id="navMenu">
+      <li><a href="tentang.html">Tentang</a></li>
+      <li><a href="#showcase">Proyek</a></li>
+      <li><a href="#certifications">Sertifikasi</a></li>
+      <li><a href="pendidikan.html">Pendidikan</a></li>
+      <li><a href="#contact">Kontak</a></li>
+    </ul>
+    <button class="nav__toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="navMenu"
+      aria-label="Buka menu">
+      <span></span>
+      <span></span>
+    </button>
+    <a class="nav__cta" href="#contact" aria-label="Hubungi Dimas Danendra">
+      <svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" stroke-width="1.5"
+        stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M4.5 11.5 11.5 4.5" />
+        <path d="M5.5 4.5h6v6" />
+      </svg>
+    </a>
+  </nav>
+
+  <main id="main">
+
+    <section class="hero" id="hero">
+      <canvas class="hero__rope" id="heroRope" aria-hidden="true"></canvas>
+      <p class="hero__word" aria-hidden="true">dimas</p>
+
+      <article class="id-card" id="idCard" aria-label="Kartu identitas Dimas Danendra">
+        <span class="id-card__clip" aria-hidden="true">
+          <svg class="id-card__hook" viewBox="0 0 68 56" fill="none">
+            <defs>
+              <linearGradient id="lanyardMetal" x1="10" y1="8" x2="54" y2="42" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#f7f7f7" />
+                <stop offset="0.35" stop-color="#d8d8d8" />
+                <stop offset="0.68" stop-color="#9c9c9c" />
+                <stop offset="1" stop-color="#ededed" />
+              </linearGradient>
+              <linearGradient id="lanyardPlate" x1="34" y1="28" x2="34" y2="48" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#f4f4f4" />
+                <stop offset="0.48" stop-color="#c9c9c9" />
+                <stop offset="1" stop-color="#8f8f8f" />
+              </linearGradient>
+            </defs>
+            <circle cx="34" cy="8" r="7" stroke="url(#lanyardMetal)" stroke-width="2.5" />
+            <path d="M34 15v2" stroke="url(#lanyardMetal)" stroke-width="3" stroke-linecap="round" />
+            <circle cx="13" cy="16" r="4.5" stroke="url(#lanyardMetal)" stroke-width="2.5" />
+            <circle cx="13" cy="16" r="2" stroke="#f2f2f2" stroke-width="1.5" opacity="0.85" />
+            <path d="M13 16h41" stroke="url(#lanyardMetal)" stroke-width="3" stroke-linecap="round" />
+            <path d="M13 16C9 24 10 32 20 37c13 6 28 1 34-11 2-4 1-8 0-10" stroke="url(#lanyardMetal)" stroke-width="4"
+              stroke-linecap="round" />
+            <path d="M51 11c4 0 6 2 6 5s-2 5-5 5" stroke="url(#lanyardMetal)" stroke-width="2.5"
+              stroke-linecap="round" />
+            <rect x="25" y="33" width="18" height="17" rx="4" fill="url(#lanyardPlate)" stroke="#858585" />
+            <rect x="29" y="39" width="10" height="4" rx="2" fill="#262626" />
+            <circle cx="28" cy="35" r="1.2" fill="#f7f7f7" opacity="0.75" />
+          </svg>
+        </span>
+        <div class="id-card__photo">
+          <img src="assets/card-photo.jpeg" alt="Foto Dimas Danendra" draggable="false">
+        </div>
+        <svg class="id-card__mark" viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true">
+          <path d="M12 2l2.2 7.8L22 12l-7.8 2.2L12 22l-2.2-7.8L2 12l7.8-2.2z" />
+        </svg>
+      </article>
+
+      <a class="hero__badge" href="assets/cv-dimas-danendra.pdf" download aria-label="Unduh CV Dimas Danendra"><svg viewBox="0 0 24 24" width="11" height="11" fill="currentColor" aria-hidden="true">
+          <path d="M12 2l2.2 7.8L22 12l-7.8 2.2L12 22l-2.2-7.8L2 12l7.8-2.2z" />
+        </svg> Unduh CV
+
+      </a>
+    </section>
+
+    <section class="quick-links" aria-label="Pintasan profil">
+      <div class="container quick-links__grid">
+        <a class="quick-links__item" href="tentang.html">Tentang Saya</a>
+        <a class="quick-links__item" href="assets/cv-dimas-danendra.pdf" download><span class="cta-badge">PDF</span> Unduh CV</a>
+        <a class="quick-links__item" href="proyek.html">Lihat Proyek</a>
+        <a class="quick-links__item" href="#contact">Hubungi Saya</a>
+      </div>
+    </section>
+
+    <section class="statement reveal" id="statement">
+      <div class="container statement__grid">
+        <div class="statement__barcode" aria-hidden="true"></div>
+        <p class="statement__copy"><span class="statement__lead">Saya menjembatani </span> <span
+            class="statement__body">administrasi & teknologi membangun sistem berbasis web yang membuat proses kerja
+            lebih rapi, terukur, dan mudah ditelusuri. Struktur berpikir datang dari Teknik Informatika, ketelitian
+            dan sikap melayani dari pengalaman administrasi.</span></p>
+      </div>
+    </section>
+    <section class="showcase" id="showcase">
+      <div class="container">
+        <div class="showcase__head">
+          <h2 class="showcase__title"><span class="showcase__title-main">Proyek Pilihan.</span><br><span
+              class="showcase__title-sub">Web, data, dan sistem.</span></h2>
+          <a class="showcase__all" href="proyek.html">Semua proyek <span aria-hidden="true">↗</span></a>
+        </div>
+
+        <article class="showcase__card" aria-label="Galeri proyek Dimas Danendra">
+          <a class="showcase__main" id="showcaseMain" href="proyek.html#buku-tamu">Sistem Buku Tamu Digital</a>
+
+          <button class="showcase__arrow showcase__arrow--prev" id="showcasePrev" type="button"
+            aria-label="Proyek sebelumnya">
+            <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M10 3 5 8l5 5" />
+            </svg>
+          </button>
+          <button class="showcase__arrow showcase__arrow--next" id="showcaseNext" type="button"
+            aria-label="Proyek berikutnya">
+            <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="m6 3 5 5-5 5" />
+            </svg>
+          </button>
+
+          <div class="showcase__thumbs">
+            <button class="showcase__thumb" type="button" data-bg="#F2F2F2" data-ink="#0A0A0A"
+              data-img="assets/project-buku-tamu.png"
+              data-title="Sistem Buku Tamu Digital" data-case="proyek.html#buku-tamu" data-more="https://dimasdanendra1.github.io/bukutamu-bkpsdm/"
+              data-more-label="Demo live" aria-label="Tampilkan Sistem Buku Tamu Digital">
+
+              <span class="showcase__swatch"
+                style="--swatch:#F2F2F2; background-image:url('assets/project-buku-tamu.png'); background-size:cover; background-position:center"></span>
+              <span class="showcase__thumb-label">Buku Tamu</span>
+            </button>
+            <button class="showcase__thumb" type="button" data-bg="#E3702B" data-ink="#0A0A0A"
+              data-img="assets/project-spk.png"
+              data-title="Sistem Pendukung Keputusan Seleksi Beasiswa" data-case="proyek.html#spk"
+              data-more="https://spkbeasiswa.freedev.app/?i=1" data-more-label="Demo live"
+              aria-label="Tampilkan SPK Seleksi Beasiswa">
+
+              <span class="showcase__swatch"
+                style="--swatch:#E3702B; background-image:url('assets/project-spk.png'); background-size:cover; background-position:center"></span>
+              <span class="showcase__thumb-label">SPK Beasiswa</span>
+            </button>
+            <button class="showcase__thumb" type="button" data-bg="#B7B7B7" data-ink="#0A0A0A"
+              data-img="assets/project-amazon-prime.svg"
+              data-title="Analisis Data Amazon Prime Video" data-case="proyek.html#amazon-prime"
+              data-more="https://www.kaggle.com/datasets/shivamb/amazon-prime-movies-and-tv-shows"
+              data-more-label="Dataset" aria-label="Tampilkan Analisis Data Amazon Prime Video">
+
+              <span class="showcase__swatch"
+                style="--swatch:#B7B7B7; background-image:url('assets/project-amazon-prime.svg'); background-size:cover; background-position:center"></span>
+              <span class="showcase__thumb-label">Amazon Prime</span>
+            </button>
+          </div>
+        </article>
+
+        <div class="showcase__actions">
+          <a class="showcase__link" id="showcaseCase" href="proyek.html#buku-tamu">Lihat proyek <span
+              aria-hidden="true">↗</span></a>
+          <a class="showcase__link showcase__link--ghost" id="showcaseMore" href="https://dimasdanendra1.github.io/bukutamu-bkpsdm/"
+            target="_blank" rel="noopener noreferrer"><span class="cta-badge cta-badge--live">Live</span> Demo <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="journey-nav" id="journey" aria-label="Navigasi pengalaman dan organisasi">
+      <div class="container">
+        <div class="journey-nav__frame reveal" style="--i: 0">
+          <div class="journey-nav__head">
+            <p class="journey-nav__label">Riwayat</p>
+          </div>
+          <div class="journey-nav__grid">
+            <a class="journey-nav__card" href="pengalaman.html">
+              <span class="journey-nav__eyebrow">Kerja &amp; Magang</span>
+              <span class="journey-nav__title">Pengalaman<span class="journey-nav__arrow" aria-hidden="true">↗</span></span>
+              <span class="journey-nav__desc">Peran, tanggung jawab, dan hasil dari pengalaman kerja yang pernah dijalankan.</span>
+            </a>
+            <a class="journey-nav__card" href="organisasi.html">
+              <span class="journey-nav__eyebrow">Kegiatan &amp; Kontribusi</span>
+              <span class="journey-nav__title">Organisasi<span class="journey-nav__arrow" aria-hidden="true">↗</span></span>
+              <span class="journey-nav__desc">Keterlibatan organisasi, kolaborasi, dan kontribusi yang pernah diikuti.</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="certs-home" id="certifications">
+      <div class="container">
+        <div class="certs-home__head">
+          <h2 class="certs-home__title"><span class="certs-home__title-main">Sertifikasi.</span><br><span
+              class="certs-home__title-sub">Kompetensi dan pelatihan.</span></h2>
+        </div>
+
+        <div class="cert-list cert-list--home">
+          <article class="cert-item">
+            <div class="cert-item__top">
+              <span class="cert-item__mark">BNSP · Junior Web Programmer</span>
+              <span class="cert-item__date">17 September 2026</span>
+            </div>
+            <h3 class="cert-item__title"><a class="cert-item__jump" href="sertifikasi.html#bnsp">Pemrogram Web Muda
+                (Junior Web Programmer)</a></h3>
+            <span class="cert-item__issuer">LSP Teknologi Digital (LSP TIKOM), terlisensi BNSP</span>
+            <span class="cert-item__desc">Membuat aplikasi web berbasis studi kasus pengelolaan data operasional,
+              mencakup form input, proses CRUD, validasi, dan tampilan data yang terstruktur.</span>
+            <div class="cert-item__actions">
+              <span class="cert-item__note">Sertifikat kompetensi · BNSP</span>
+              <a class="cert-item__viewlink" href="assets/certificates/BNSP%20JWP%20DIMAS%20DANENDRA.pdf" target="_blank" rel="noreferrer">Lihat sertifikat <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="cert-item">
+            <div class="cert-item__top">
+              <span class="cert-item__mark">Coding Studio · Laravel 9</span>
+              <span class="cert-item__date">4 Oktober 2026</span>
+            </div>
+            <h3 class="cert-item__title"><a class="cert-item__jump" href="sertifikasi.html#laravel-9">Mahir Membuat
+                Website dengan Laravel 9</a></h3>
+            <span class="cert-item__issuer">Coding Studio</span>
+            <span class="cert-item__desc">Membangun website dengan Laravel 9: routing, controller, Blade, autentikasi
+              dasar, dan CRUD terhubung database—fondasi untuk aplikasi seperti sistem informasi internal.</span>
+            <div class="cert-item__actions">
+              <span class="cert-item__note">Sertifikat kursus · Coding Studio</span>
+              <a class="cert-item__viewlink" href="assets/certificates/Sertifikat%20Mahir%20Membuat%20Website%20dengan%20Laravel%209%20-%20Dimas%20danendra%20-%20iaXeM0NPTF.pdf" target="_blank" rel="noreferrer">Lihat sertifikat <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="cert-item">
+            <div class="cert-item__top">
+              <span class="cert-item__mark">Coding Studio · Database</span>
+              <span class="cert-item__date">4 Oktober 2026</span>
+            </div>
+            <h3 class="cert-item__title"><a class="cert-item__jump" href="sertifikasi.html#database-aplikasi">Mahir
+                Membuat Database Aplikasi Profesional</a></h3>
+            <span class="cert-item__issuer">Coding Studio</span>
+            <span class="cert-item__desc">Merancang database aplikasi profesional: tabel, relasi, primary/foreign key,
+              dan query dasar untuk kebutuhan seperti sistem informasi perusahaan (contoh: alur data operasional mirip
+              konsep SIMRS).</span>
+            <div class="cert-item__actions">
+              <span class="cert-item__note">Sertifikat kursus · Coding Studio</span>
+              <a class="cert-item__viewlink" href="assets/certificates/Sertifikat%20Mahir%20Membuat%20Database%20Aplikasi%20Profesional%20-%20Dimas%20danendra%20-%205Xk3rtisY9.pdf" target="_blank" rel="noreferrer">Lihat sertifikat <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="cert-item">
+            <div class="cert-item__top">
+              <span class="cert-item__mark">Coding Studio · Front-End I</span>
+              <span class="cert-item__date">4 Oktober 2026</span>
+            </div>
+            <h3 class="cert-item__title"><a class="cert-item__jump" href="sertifikasi.html#frontend-web-1">Fundamental
+                Front-End Web I</a></h3>
+            <span class="cert-item__issuer">Coding Studio</span>
+            <span class="cert-item__desc">Membuat tampilan web dasar dengan HTML, CSS, dan JavaScript: layout halaman,
+              komponen UI, dan interaksi sederhana untuk antarmuka aplikasi.</span>
+            <div class="cert-item__actions">
+              <span class="cert-item__note">Sertifikat kursus · Coding Studio</span>
+              <a class="cert-item__viewlink" href="assets/certificates/Sertifikat%20Fundamental%20Front-End%20Web%20I%20-%20Dimas%20danendra.pdf" target="_blank" rel="noreferrer">Lihat sertifikat <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="cert-item">
+            <div class="cert-item__top">
+              <span class="cert-item__mark">RevoU · Data Analytics</span>
+              <span class="cert-item__date">4 November 2026</span>
+            </div>
+            <h3 class="cert-item__title"><a class="cert-item__jump"
+                href="sertifikasi.html#intro-data-analytics-revou">Intro to Data Analytics</a></h3>
+            <span class="cert-item__issuer">RevoU</span>
+            <span class="cert-item__desc">Dasar analitik data: data cleaning/penyiapan data, eksplorasi dan visualisasi
+              data, membaca metrik sederhana, serta menyampaikan insight untuk kebutuhan laporan.</span>
+            <div class="cert-item__actions">
+              <span class="cert-item__note">Sertifikat pelatihan · RevoU</span>
+              <a class="cert-item__viewlink" href="assets/certificates/DAMC_dimasdanendra57%40gmail.com_DAMC-261026-01-1-00147%20(1).pdf" target="_blank" rel="noreferrer" aria-label="Buka sertifikat RevoU Intro to Data Analytics (PDF)"><span class="cta-badge">PDF</span> Lihat sertifikat <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="cert-item">
+            <div class="cert-item__top">
+              <span class="cert-item__mark">Coding Studio · Algoritma</span>
+              <span class="cert-item__date">3 Oktober 2026</span>
+            </div>
+            <h3 class="cert-item__title"><a class="cert-item__jump"
+                href="sertifikasi.html#fundamental-algoritma">Fundamental Algoritma</a></h3>
+            <span class="cert-item__issuer">Coding Studio</span>
+            <span class="cert-item__desc">Logika pemrograman, alur proses, dan pemecahan masalah langkah demi
+              langkah—dasar membangun alur fitur pada aplikasi sistem informasi.</span>
+            <div class="cert-item__actions">
+              <span class="cert-item__note">Sertifikat kursus · Coding Studio</span>
+              <a class="cert-item__viewlink" href="assets/certificates/Sertifikat%20Fundamental%20Algoritma%20-%20Dimas%20danendra%20-%20sqHLu1gm8p.pdf" target="_blank" rel="noreferrer">Lihat sertifikat <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="process" id="process">
+      <div class="process__wrapper">
+        <article class="process__card">
+          <span class="process__eyebrow">Keahlian. Terstruktur.</span>
+
+          <div class="process__body">
+            <div class="process__slide" id="processSlide" aria-live="polite">
+              <h2 class="process__title">Hard Skill</h2>
+              <p class="process__desc">Pengembangan web (PHP, Laravel, MySQL) · Perancangan &amp; pengelolaan basis data · Analisis &amp; perancangan sistem informasi · Analisis data dasar · Pengujian fungsional
+              </p>
+            </div>
+          </div>
+
+          <div class="process__tabs" role="group" aria-label="Kategori keahlian">
+            <button class="process__tab is-active" type="button" data-step="0" aria-pressed="true">
+              <span class="process__tab-num">01</span>
+              <span class="process__tab-name">Hard Skill</span>
+            </button>
+            <button class="process__tab" type="button" data-step="1" aria-pressed="false">
+              <span class="process__tab-num">02</span>
+              <span class="process__tab-name">Soft Skill</span>
+            </button>
+            <button class="process__tab" type="button" data-step="2" aria-pressed="false">
+              <span class="process__tab-num">03</span>
+              <span class="process__tab-name">Data &amp; Administrasi</span>
+            </button>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="testimonials tools-showcase" id="tools">
+      <div class="container">
+        <h2 class="testimonials__title">Tools</h2>
+        <p class="tools-showcase__lede">Perangkat yang relevan untuk administrasi, data, dan pengembangan web.</p>
+
+        <div class="tools-stack" aria-label="Daftar tools">
+          <div class="tools-stack__item" style="--x:-198px;--y:72px;--r:-18deg;--z:1"><span class="tools-stack__card"><img src="assets/icons/word.svg" alt="Microsoft Word" loading="lazy"></span></div>
+          <div class="tools-stack__item" style="--x:-132px;--y:40px;--r:-12deg;--z:2"><span class="tools-stack__card"><img src="assets/icons/excel.svg" alt="Microsoft Excel" loading="lazy"></span></div>
+          <div class="tools-stack__item" style="--x:-66px;--y:16px;--r:-6deg;--z:3"><span class="tools-stack__card"><img src="assets/icons/google-sheets.svg" alt="Google Sheets" loading="lazy"></span></div>
+          <div class="tools-stack__item" style="--x:0px;--y:4px;--r:0deg;--z:8"><span class="tools-stack__card"><img src="assets/icons/vscode.svg" alt="Visual Studio Code" loading="lazy"></span></div>
+          <div class="tools-stack__item" style="--x:66px;--y:16px;--r:6deg;--z:4"><span class="tools-stack__card"><img src="assets/icons/php.svg" alt="PHP" loading="lazy"></span></div>
+          <div class="tools-stack__item" style="--x:132px;--y:40px;--r:12deg;--z:5"><span class="tools-stack__card"><img src="assets/icons/laravel.svg" alt="Laravel" loading="lazy"></span></div>
+          <div class="tools-stack__item" style="--x:198px;--y:72px;--r:18deg;--z:6"><span class="tools-stack__card"><img src="assets/icons/mysql.svg" alt="MySQL" loading="lazy"></span></div>
+          <div class="tools-stack__item" style="--x:-99px;--y:92px;--r:-10deg;--z:2"><span class="tools-stack__card"><img src="assets/icons/google-docs.svg" alt="Google Docs" loading="lazy"></span></div>
+          <div class="tools-stack__item" style="--x:-33px;--y:76px;--r:-3deg;--z:3"><span class="tools-stack__card"><img src="assets/icons/powerpoint.svg" alt="Microsoft PowerPoint" loading="lazy"></span></div>
+          <div class="tools-stack__item" style="--x:33px;--y:76px;--r:3deg;--z:3"><span class="tools-stack__card"><img src="assets/icons/google-slides.svg" alt="Google Slides" loading="lazy"></span></div>
+          <div class="tools-stack__item" style="--x:99px;--y:92px;--r:10deg;--z:2"><span class="tools-stack__card"><img src="assets/icons/canva.svg" alt="Canva" loading="lazy"></span></div>
+          <div class="tools-stack__item" style="--x:0px;--y:108px;--r:0deg;--z:1"><span class="tools-stack__card"><img src="assets/icons/google-drive.svg" alt="Google Drive" loading="lazy"></span></div>
+        </div>
+
+        <div class="tools-showcase__groups">
+          <article class="testimonials__card tools-group">
+            <div class="testimonials__head">
+              <span class="tools-group__mark tools-group__mark--docs" aria-hidden="true">
+                <span></span><span></span><span></span>
+              </span>
+              <div class="testimonials__who">
+                <span class="testimonials__name">Administrasi &amp; Dokumen</span>
+                <span class="testimonials__role">Office / Google Workspace</span>
+              </div>
+            </div>
+            <p class="testimonials__quote">Word, Excel, PowerPoint, Google Docs, Sheets, Slides, dan Drive untuk dokumen, rekap, dan kolaborasi.</p>
+          </article>
+          <article class="testimonials__card tools-group">
+            <div class="testimonials__head">
+              <span class="tools-group__mark tools-group__mark--data" aria-hidden="true">
+                <span></span><span></span><span></span><span></span>
+              </span>
+              <div class="testimonials__who">
+                <span class="testimonials__name">Web &amp; Data</span>
+                <span class="testimonials__role">Development</span>
+              </div>
+            </div>
+            <p class="testimonials__quote">PHP, Laravel, MySQL, dan Visual Studio Code untuk pengembangan aplikasi web dan pengelolaan data.</p>
+          </article>
+          <article class="testimonials__card tools-group">
+            <div class="testimonials__head">
+              <span class="tools-group__mark tools-group__mark--visual" aria-hidden="true">
+                <span></span>
+              </span>
+              <div class="testimonials__who">
+                <span class="testimonials__name">Visual &amp; Pendukung</span>
+                <span class="testimonials__role">Design / Support</span>
+              </div>
+            </div>
+            <p class="testimonials__quote">Canva untuk materi visual sederhana, serta alat pendukung kerja administrasi dan dokumentasi.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="faq" id="faq">
+      <div class="container">
+        <div class="faq__grid">
+          <div class="faq__main">
+            <h2 class="faq__title">Pertanyaan,<br>Jawaban Singkat.</h2>
+
+            <div class="faq__list">
+              <div class="faq__item">
+                <button class="faq__question" id="faq-question-1" type="button" aria-expanded="false"
+                  aria-controls="faq-answer-1">
+                  <span>Siapa Dimas Danendra?</span>
+                  <span class="faq__icon" aria-hidden="true"></span>
+                </button>
+                <div class="faq__answer" id="faq-answer-1" role="region" aria-labelledby="faq-question-1">
+                  <p>Lulusan S1 Teknik Informatika Universitas Muhammadiyah Cirebon dengan pengalaman front office dan
+                    administrasi di BKPSDM Kota Cirebon.</p>
+                </div>
+              </div>
+
+              <div class="faq__item">
+                <button class="faq__question" id="faq-question-2" type="button" aria-expanded="false"
+                  aria-controls="faq-answer-2">
+                  <span>Apa fokus karier Anda?</span>
+                  <span class="faq__icon" aria-hidden="true"></span>
+                </button>
+                <div class="faq__answer" id="faq-answer-2" role="region" aria-labelledby="faq-question-2">
+                  <p>Staff Administrasi, IT Support, dan Analisis Data. Terbuka untuk bekerja di berbagai wilayah
+                    Indonesia.</p>
+                </div>
+              </div>
+
+              <div class="faq__item">
+                <button class="faq__question" id="faq-question-3" type="button" aria-expanded="false"
+                  aria-controls="faq-answer-3">
+                  <span>Apa saja keterampilan teknis Anda?</span>
+                  <span class="faq__icon" aria-hidden="true"></span>
+                </button>
+                <div class="faq__answer" id="faq-answer-3" role="region" aria-labelledby="faq-question-3">
+                  <p>Pengelolaan dokumen dan data, spreadsheet, PHP, Laravel, MySQL, serta pembuatan materi publikasi
+                    dengan Canva.</p>
+                </div>
+              </div>
+
+              <div class="faq__item">
+                <button class="faq__question" id="faq-question-4" type="button" aria-expanded="false"
+                  aria-controls="faq-answer-4">
+                  <span>Apakah terbuka untuk peluang kerja?</span>
+                  <span class="faq__icon" aria-hidden="true"></span>
+                </button>
+                <div class="faq__answer" id="faq-answer-4" role="region" aria-labelledby="faq-question-4">
+                  <p>Ya. Saya terbuka untuk posisi Staff Administrasi, IT Support, dan Analisis Data.</p>
+                </div>
+              </div>
+
+              <div class="faq__item">
+                <button class="faq__question" id="faq-question-5" type="button" aria-expanded="false"
+                  aria-controls="faq-answer-5">
+                  <span>Bagaimana cara menghubungi Anda?</span>
+                  <span class="faq__icon" aria-hidden="true"></span>
+                </button>
+                <div class="faq__answer" id="faq-answer-5" role="region" aria-labelledby="faq-question-5">
+                  <p>Melalui email dimasdanendra57@gmail.com atau WhatsApp 0851-5525-1677.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <aside class="faq__side">
+            <p class="faq__side-title">Untuk pertanyaan lain,<br>hubungi saya</p>
+            <a class="faq__email" href="mailto:dimasdanendra57@gmail.com">dimasdanendra57@gmail.com</a>
+            <a class="contact-cv-link" href="assets/cv-dimas-danendra.pdf" download><span class="cta-badge">PDF</span> Unduh CV</a>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="contact__card">
+          <div class="contact__hand contact__hand--left" aria-hidden="true">
+            <svg viewBox="0 0 120 190" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="38" y="-12" width="44" height="74" rx="12" fill="#E0E0E0" />
+              <rect x="26" y="42" width="68" height="76" rx="24" fill="#D8D8D8" />
+              <rect x="30" y="88" width="12" height="62" rx="6" fill="#D8D8D8" />
+              <rect x="45" y="82" width="12" height="74" rx="6" fill="#D8D8D8" />
+              <rect x="60" y="84" width="12" height="72" rx="6" fill="#D8D8D8" />
+              <rect x="75" y="94" width="12" height="58" rx="6" fill="#D8D8D8" />
+              <rect x="14" y="66" width="16" height="50" rx="8" fill="#D8D8D8" transform="rotate(-24 22 91)" />
+            </svg>
+          </div>
+          <div class="contact__hand contact__hand--right" aria-hidden="true">
+            <svg viewBox="0 0 120 190" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="38" y="-12" width="44" height="74" rx="12" fill="#E0E0E0" />
+              <rect x="26" y="42" width="68" height="76" rx="24" fill="#D8D8D8" />
+              <rect x="30" y="88" width="12" height="62" rx="6" fill="#D8D8D8" />
+              <rect x="45" y="82" width="12" height="74" rx="6" fill="#D8D8D8" />
+              <rect x="60" y="84" width="12" height="72" rx="6" fill="#D8D8D8" />
+              <rect x="75" y="94" width="12" height="58" rx="6" fill="#D8D8D8" />
+              <rect x="14" y="66" width="16" height="50" rx="8" fill="#D8D8D8" transform="rotate(-24 22 91)" />
+            </svg>
+          </div>
+
+          <div class="contact__inner">
+            <h2 class="contact__title">Terbuka untuk peluang Staff Administrasi, IT Support, dan Analisis Data. Mari
+              terhubung.</h2>
+
+            <form class="contact__form">
+              <label class="contact__field">
+                <span class="contact__label">Nama</span>
+                <input class="contact__input" type="text" name="name" autocomplete="name">
+              </label>
+
+              <label class="contact__field">
+                <span class="contact__label">Email</span>
+                <input class="contact__input" type="email" name="email" autocomplete="email">
+              </label>
+
+              <label class="contact__field">
+                <span class="contact__label">Pesan</span>
+                <textarea class="contact__input contact__input--message" name="message"></textarea>
+              </label>
+
+              <button class="contact__submit" type="submit">Kirim</button>
+              <p class="contact__note">Saya akan membaca pesan Anda dan menindaklanjuti sesuai kebutuhan.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer" id="footer">
+      <h2 class="footer__brand">danendra<sup>.</sup></h2>
+
+      <div class="footer__inner">
+        <nav class="footer__links" aria-label="Tautan footer">
+          <ul class="footer__column">
+            <li><a class="footer__link" href="#hero">Beranda<span class="footer__arrow" aria-hidden="true"></span></a>
+            </li>
+            <li><a class="footer__link" href="tentang.html">Tentang<span class="footer__arrow"
+                  aria-hidden="true"></span></a></li>
+            <li><a class="footer__link" href="proyek.html">Proyek<span class="footer__arrow"
+                  aria-hidden="true"></span></a></li>
+            <li><a class="footer__link" href="pendidikan.html">Pendidikan<span class="footer__arrow"
+                  aria-hidden="true"></span></a></li>
+            <li><a class="footer__link" href="sertifikasi.html">Sertifikasi<span class="footer__arrow"
+                  aria-hidden="true"></span></a></li>
+          </ul>
+          <ul class="footer__column">
+            <li><a class="footer__link" href="https://www.instagram.com/d.dnnra/" target="_blank"
+                rel="noopener noreferrer">Instagram<span class="footer__arrow" aria-hidden="true"></span></a></li>
+            <li><a class="footer__link" href="https://www.linkedin.com/in/dimas-danendra" target="_blank"
+                rel="noopener noreferrer">LinkedIn<span class="footer__arrow" aria-hidden="true"></span></a></li>
+            <li><a class="footer__link" href="https://wa.me/6285155251677" target="_blank"
+                rel="noopener noreferrer">WhatsApp<span class="footer__arrow" aria-hidden="true"></span></a></li>
+            <li><a class="footer__link" href="mailto:dimasdanendra57@gmail.com">Email<span class="footer__arrow"
+                  aria-hidden="true"></span></a></li>
+          </ul>
+        </nav>
+
+        <div class="footer__bottom">
+          <span class="footer__copyright">© 2026 Dimas Danendra</span>
+          <span class="footer__credit">HTML · CSS · JavaScript</span>
+          <button class="footer__top" type="button">Kembali ke atas <span aria-hidden="true">↑</span></button>
+        </div>
+      </div>
+    </footer>
+  </main>
+</body>
+
+</html>
